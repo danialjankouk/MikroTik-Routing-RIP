@@ -34,11 +34,18 @@ This project showcases the implementation of **Routing Information Protocol (RIP
 
 ## 🚀 How to Use
 
-1. Clone or download this repository.
-2. Open VMware and import the MikroTik CHR VMs.
-3. Connect the routers using custom VMnet interfaces (or internal networking).
-4. Apply the provided configurations or follow the `rip-setup.txt` instructions.
-5. Test routing by using `ping` and `traceroute` commands between subnets.
+1. Download the OVA file  
+
+2. Import it into VMware (File > Open > Select OVA)
+
+3. Start the VM
+
+4. Login to all MikroTik routers with:
+   - **Username:** `admin`
+   - **Password:** `1`
+
+All RIP configurations are already applied.
+
 
 ---
 
